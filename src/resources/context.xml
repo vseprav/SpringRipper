@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tool="http://www.springframework.org/schema/tool"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <bean class="main.java.quoters.DepreciationHandlerBeanFactoryPostProcessor"></bean>
+    <bean class="main.java.quoters.InjectRandomIntAnnotationBeanPostProcessor"></bean>
+    <bean class="main.java.quoters.ProfilingHandlerBeanPostProcessor"></bean>
+    <bean class="main.java.quoters.PostProxyInvokeContextListener"></bean>
+    <bean class="main.java.quoters.TerminalQuoter">
+        <property name="message" value="Hello my dear friend"></property>
+    </bean>
+
+</beans>
