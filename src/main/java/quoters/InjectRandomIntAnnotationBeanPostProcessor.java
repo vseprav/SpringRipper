@@ -1,4 +1,4 @@
-package main.java.quoters;
+package quoters;
 
 import org.springframework.util.ReflectionUtils;
 import org.springframework.beans.BeansException;

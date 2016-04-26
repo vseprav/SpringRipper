@@ -1,4 +1,4 @@
-package main.java.quoters.color_frame;
+package color_frame;
 import javax.swing.*;
 import java.awt.*;
 import java.util.Random;

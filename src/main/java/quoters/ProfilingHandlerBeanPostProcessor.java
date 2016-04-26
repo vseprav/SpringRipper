@@ -1,4 +1,4 @@
-package main.java.quoters;
+package quoters;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

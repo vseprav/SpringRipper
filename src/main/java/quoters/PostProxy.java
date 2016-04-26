@@ -1,6 +1,5 @@
-package main.java.quoters;
+package quoters;
 
-import java.lang.annotation.Inherited;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 

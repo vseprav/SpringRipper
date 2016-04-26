@@ -1,4 +1,4 @@
-package main.java.quoters.color_frame;
+package color_frame;
 
 import org.springframework.context.annotation.*;
 
@@ -9,7 +9,7 @@ import java.util.Random;
  * Created by andrii.peliak on 4/22/2016.
  */
 @Configuration
-@ComponentScan(basePackages = "main.java.quoters.color_frame")
+@ComponentScan(basePackages = "color_frame")
 public class Config {
 
     @Bean

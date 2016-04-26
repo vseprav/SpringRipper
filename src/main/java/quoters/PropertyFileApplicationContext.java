@@ -1,4 +1,4 @@
-package main.java.quoters;
+package quoters;
 
 import org.springframework.beans.factory.support.PropertiesBeanDefinitionReader;
 import org.springframework.context.support.GenericApplicationContext;
@@ -15,7 +15,7 @@ public class PropertyFileApplicationContext extends GenericApplicationContext {
     }
 
     public static void main(String[] args) {
-        PropertyFileApplicationContext context = new PropertyFileApplicationContext("resources/context.properties");
-        context.getBean(Quoters.class).sayQuoter();
+        PropertyFileApplicationContext context = new PropertyFileApplicationContext("context.properties");
+        context.getBean(Quotes.class).sayQuoter();
     }
 }

@@ -1,4 +1,4 @@
-package main.java.quoters.color_frame;
+package color_frame;
 
 import com.sun.jmx.snmp.Timestamp;
 import javafx.util.Pair;

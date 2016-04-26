@@ -1,11 +1,11 @@
-package main.java.quoters;
+package quoters;
 
 /**
  * Created by andrii.peliak on 4/14/2016.
  */
 @DeprecatedClass(newImpl = T1000.class)
 @Profiling
-public class TerminalQuoter implements Quoters {
+public class TerminalQuoter implements Quotes {
     @InjectRandomInt(min=2, max=7)
     private  int repeat;
 
